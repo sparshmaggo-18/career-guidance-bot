@@ -64,16 +64,6 @@ career-coach-ai/
 │── /data                 # Sample resumes or datasets
 ```
 
----
-
-## 🖼️ Screenshots
-*(Add screenshots of your app UI here)*  
-- Career guidance chatbot  
-- Resume review tool  
-- Learning roadmap  
-
----
-
 ## 📌 Roadmap
 - [ ] Add LinkedIn/Indeed integration for internship listings  
 - [ ] Advanced resume scoring with NLP  
