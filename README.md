@@ -23,8 +23,8 @@ An AI-powered chatbot that helps students and job seekers with **career guidance
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/career-coach-ai.git
-cd career-coach-ai
+git clone https://github.com/sparshmaggo-18/career-guidance-bot.git
+cd career-guidance-bot
 ```
 
 ### 2️⃣ Create Virtual Environment
