@@ -52,7 +52,7 @@ This ensures that students can **make informed career decisions** without relyin
 ## 🖼️ Screenshots  
 
 ### Career Guidance Chatbot  
-![Chatbot Screenshot](https://drive.google.com/file/d/1gkeAS2Y4QxQU18cXzEsatwos-5NKASlG/view?usp=sharing)  
+https://drive.google.com/file/d/1gkeAS2Y4QxQU18cXzEsatwos-5NKASlG/view?usp=sharing)  
 
 ### Resume Review  
 ![Resume Review Screenshot](images/screenshot2.png)  
