@@ -1,114 +1,98 @@
-# Career Guidance Bot 🤖🎓  
-An AI-powered chatbot that helps students and job seekers with **career guidance, internship suggestions, resume feedback, and personalized learning roadmaps**. Built with **Python, Streamlit, and OpenAI API**.  
+# Career Guidance Bot 🤖🎓
+
+## 📌 Problem Statement
+Students and young professionals often struggle to find the right career path, internships, and opportunities aligned with their skills and academic background. 
+Traditional career counseling is limited, not always accessible, and often lacks personalized feedback. 
+Additionally, resume evaluation is typically done manually, which can be time-consuming and subjective. 
+
+Our solution addresses these issues by building an **AI-powered Career & Internship Guidance Bot** that helps students with:  
+- Personalized career guidance  
+- Internship suggestions  
+- Resume analysis with AI  
+- A structured interface for profile building  
+
+This ensures that students receive **real-time, AI-driven advice** tailored to their academic journey and career goals.  
 
 ---
 
-## 🚩 Problem Statement  
-Choosing the right career path and finding suitable internships are among the most common challenges faced by students and fresh graduates.  
-Some of the major issues include:  
-- **Lack of proper guidance**: Many students do not have access to mentors or career counselors.  
-- **Resume quality issues**: Resumes are often poorly structured and do not highlight key strengths.  
-- **Information overload**: With so many resources available online, students struggle to identify relevant learning paths.  
-- **Limited preparation for interviews**: Students often lack practice for technical and HR interview rounds.  
-
-These challenges often result in **missed opportunities, rejections, and lack of clarity** in career growth.  
+## 🚀 Current Progress Status
+- ✅ Profile Management (collecting name, degree, year, and other basic info)  
+- ✅ Career Chatbot integrated with **Groq API** for real-time AI answers  
+- ✅ Resume Analysis section that provides insights on uploaded resumes  
+- ✅ Sidebar navigation for seamless access to different sections  
+- ✅ Fully functional Streamlit app with a user-friendly UI  
 
 ---
 
-## ✅ How Our Prototype Solves the Problem  
-Career Coach AI acts as a **virtual career mentor** that provides students with **personalized and actionable guidance**.  
-- 💼 Suggests **internship and career options** based on skills and interests.  
-- 📄 Offers **resume review** with improvement tips.  
-- 🛣️ Generates **learning roadmaps** for different career paths (e.g., AI/ML, Web Development, Data Science).  
-- 🎤 Provides **mock interview questions** to build confidence.  
-- ⚡ Uses **LLM (OpenAI GPT models)** for real-time, context-aware answers (work in progress).  
+## 💡 How the Prototype Solves the Problem
+1. **Career Chatbot** – Provides personalized career and internship guidance using AI-powered responses.  
+2. **Resume Analyzer** – Automatically analyzes resumes and provides suggestions for improvement.  
+3. **Profile Section** – Collects student details to give **context-aware recommendations**.  
+4. **Streamlined Interface** – Easy-to-use sidebar navigation to switch between Profile, Career Chatbot, and Resume Analyzer.  
 
-This ensures that students can **make informed career decisions** without relying on random advice or unverified sources.  
+This system reduces dependency on manual guidance and ensures that **students can get quick, accurate, and personalized insights** anytime.  
 
 ---
 
-## 📊 Current Progress Status  
-- ✅ Streamlit-based interface is developed.  
-- ✅ Resume review, learning roadmap, and mock interview modules are functional.  
-- ✅ Offline rule-based guidance system is working.  
-- ⏳ **LLM connectivity (OpenAI API integration) is pending** – will enable real-time AI-powered answers.  
+## 🛠️ Technologies & Tools Used
+- **Python** – Core programming language  
+- **Streamlit** – Frontend & interactive UI  
+- **Groq API** – LLM integration for real-time AI answers  
+- **PyPDF2** – To parse and extract text from resumes  
+- **dotenv** – To manage API keys securely  
+- **Other Python Libraries** – os, io, etc.  
 
 ---
 
-## 🛠️ Technologies & Tools Used  
-- **Frontend & Backend**: [Streamlit](https://streamlit.io/)  
-- **Programming Language**: Python 3.10+  
-- **AI/ML**: OpenAI GPT (for LLM-based responses, in progress)  
-- **Libraries**:  
-  - `streamlit` → Web UI  
-  - `openai` → LLM connectivity  
-  - `python-dotenv` → Environment management  
-  - `PyPDF2` → Resume parsing  
-  - `os`, `re`, etc. → Utility functions  
-- **Version Control**: Git + GitHub  
+## 📸 Screenshots
+*(Add your screenshots here in GitHub using `![Alt Text](image.png)` format)*  
+
+Example:  
+```markdown
+![Career Bot Screenshot](screenshots/career_bot.png)
+```  
 
 ---
 
-## 🖼️ Screenshots  
+## ⚙️ How to Run the Project
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/sparshmaggo-18/career-guidance-bot.git
+   cd career-internship-bot
+   ```  
 
-### Career Guidance Chatbot  
-https://drive.google.com/file/d/1gkeAS2Y4QxQU18cXzEsatwos-5NKASlG/view?usp=sharing)  
+2. Install dependencies  
+   ```bash
+   pip install -r requirements.txt
+   ```  
 
-### Resume Review  
-![Resume Review Screenshot](images/screenshot2.png)  
+3. Set your **Groq API Key**  
+   - On Linux/Mac:  
+     ```bash
+     export GROQ_API_KEY="your_api_key_here"
+     ```  
+   - On Windows (PowerShell):  
+     ```powershell
+     setx GROQ_API_KEY "your_api_key_here"
+     ```  
 
-### Learning Roadmap  
-![Roadmap Screenshot](images/screenshot3.png)  
-  
----
-
-## 🚀 Setup & Installation  
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/sparshmaggo-18/career-guidance-bot.git
-cd career-guidance-bot
-```
-
-### 2️⃣ Create Virtual Environment  
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate    # On Windows
-# OR
-source .venv/bin/activate  # On Mac/Linux
-```
-
-### 3️⃣ Install Dependencies  
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Setup Environment Variables  
-Create a `.env` file in the project root:  
-```
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
-### 5️⃣ Run the App  
-```bash
-streamlit run app.py
-```
+4. Run the Streamlit app  
+   ```bash
+   streamlit run app_updated.py
+   ```  
 
 ---
 
-## 📌 Roadmap  
-- [ ] Connect to OpenAI API for real-time LLM guidance  
-- [ ] Add LinkedIn/Indeed integration for internship listings  
-- [ ] Advanced resume scoring with NLP  
-- [ ] Save user sessions & progress tracking  
-- [ ] Deploy on Streamlit Cloud / AWS  
+## 🔮 Future Scope
+- Adding **job/internship recommendation system** by scraping real-time data  
+- Multi-language support for global accessibility  
+- Integration with LinkedIn/Job Portals  
+- Advanced AI models for **career path prediction**  
 
 ---
 
-## 🤝 Contributing  
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.  
+## ✅ Conclusion
+The **Career & Internship Guidance AI Bot** provides a **personalized, AI-driven platform** for students to explore career options, internships, and resume improvements.  
+By leveraging **Groq API with Streamlit**, the solution ensures accessibility, scalability, and reliability.  
 
 ---
-
-## 📜 License  
-This project is licensed under the MIT License.  
